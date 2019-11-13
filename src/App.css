@@ -20,3 +20,44 @@
 .App-link {
   color: #09d3ac;
 }
+
+.music-items-wrapper {
+  height: 500px;
+}
+.heading {
+  text-align: center;
+  background: #58a4b0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  font-size: 14px;
+}
+
+.music-container {
+  display: flex;
+  justify-content: center;
+}
+
+.music-item-container {
+  max-width: 20%;
+  border: 1px solid #d4d4d4;
+  background:#FFF;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.highlight {
+  border: 5px solid orange;
+}
+.detail-box {
+  width: 50%;
+}
+
+.music-item-container img {
+  height: 60px;
+  width: 60px;
+}
+.music-item-container span {
+  font-size: 10px;
+}
+
